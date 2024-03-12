@@ -31,6 +31,7 @@ public class DriverManager extends ProjectBase {
         DriverManager.driver.set(driver);
         System.out.println("github");
         System.out.println("intellikj");
+        System.out.println("intellidkj");
     }
 
 }
