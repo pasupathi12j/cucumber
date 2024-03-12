@@ -30,6 +30,7 @@ public class DriverManager extends ProjectBase {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         DriverManager.driver.set(driver);
         System.out.println("github");
+        System.out.println("intellikj");
     }
 
 }
