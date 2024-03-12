@@ -29,6 +29,7 @@ public class DriverManager extends ProjectBase {
         //driver = new EdgeDriver(option);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         DriverManager.driver.set(driver);
+        System.out.println("github");
     }
 
 }
